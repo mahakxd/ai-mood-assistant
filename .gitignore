@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+
+# Streamlit
+.streamlit/
+
+# Hugging Face models (they download to cache, no need to commit them)
+.cache/
+
+# Operating System files
+.DS_Store
+Thumbs.db
